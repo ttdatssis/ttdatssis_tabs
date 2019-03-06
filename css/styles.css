@@ -59,9 +59,8 @@ a:active {
     }
 
 .page {
-    padding-top: 10px;
+    padding-top: 2px;
     padding-bottom: 10px;
-    display: grid;
 }
 
 .tab {   
@@ -106,9 +105,16 @@ pre {
     font-weight: normal;
 }
 
+.footer h1 {
+    font-size: 1em;
+    color: #666666;
+    font-weight: bold;
+}
+
 p {
     font-size: 0.85em;
-    display: grid;
+    line-height: 3em;
+    display: inline;
     grid-row-gap: 15px;
 }
 
